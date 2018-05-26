@@ -1,0 +1,27 @@
+ASSERTION	AAMBAAIFAAAAAAAAAAAA
+ASSERTION	AAMEAAEBBgAAAAAAAHCnQA==
+RUN	PerformanceSimulation		performancesimulation	1527355459853	 	2.0
+USER	User performs	1	START	1527355460726	1527355460726
+REQUEST	User performs	1	Flight Booking Actions	Open BlazeDemo Landing page	1527355460784	1527355461530	OK	 
+REQUEST	User performs	1	Flight Booking Actions	Navigation to Flight Reservation page	1527355461561	1527355461710	OK	 
+REQUEST	User performs	1	Flight Booking Actions	Navigation to Purchase page	1527355461712	1527355461865	OK	 
+GROUP	User performs	1	Flight Booking Actions	1527355460736	1527355461866	1048	OK
+USER	User performs	1	END	1527355460726	1527355461870
+USER	User performs	2	START	1527355463145	1527355463145
+REQUEST	User performs	2	Flight Booking Actions	Open BlazeDemo Landing page	1527355463146	1527355463406	OK	 
+REQUEST	User performs	2	Flight Booking Actions	Navigation to Flight Reservation page	1527355463407	1527355463551	OK	 
+REQUEST	User performs	2	Flight Booking Actions	Navigation to Purchase page	1527355463552	1527355463688	OK	 
+GROUP	User performs	2	Flight Booking Actions	1527355463146	1527355463689	540	OK
+USER	User performs	2	END	1527355463145	1527355463690
+USER	User performs	3	START	1527355464735	1527355464735
+REQUEST	User performs	3	Flight Booking Actions	Open BlazeDemo Landing page	1527355464735	1527355465068	OK	 
+REQUEST	User performs	3	Flight Booking Actions	Navigation to Flight Reservation page	1527355465069	1527355465240	OK	 
+REQUEST	User performs	3	Flight Booking Actions	Navigation to Purchase page	1527355465241	1527355465508	OK	 
+GROUP	User performs	3	Flight Booking Actions	1527355464735	1527355465509	771	OK
+USER	User performs	3	END	1527355464735	1527355465509
+USER	User performs	4	START	1527355466735	1527355466735
+REQUEST	User performs	4	Flight Booking Actions	Open BlazeDemo Landing page	1527355466735	1527355467003	OK	 
+REQUEST	User performs	4	Flight Booking Actions	Navigation to Flight Reservation page	1527355467005	1527355467145	OK	 
+REQUEST	User performs	4	Flight Booking Actions	Navigation to Purchase page	1527355467146	1527355467289	OK	 
+GROUP	User performs	4	Flight Booking Actions	1527355466735	1527355467290	551	OK
+USER	User performs	4	END	1527355466735	1527355467290

@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="selfprac$sources_2.11"
+		revision="1.0"
+		conf="gatling"
+		confs="compile, runtime, test, provided, optional, gatling, it, gatling-it, compile-internal, runtime-internal, test-internal, it-internal, plugin, sources, docs, pom, scala-tool"
+		date="20180526170443"/>
+	<dependencies>
+		<module organisation="io.gatling.highcharts" name="gatling-charts-highcharts">
+			<revision name="2.2.5" status="release" pubdate="20170426125549" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://gatling.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="56">
+				<license name="Gatling Highcharts License" url="https://raw.githubusercontent.com/gatling/gatling-highcharts/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3156" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling.highcharts/gatling-charts-highcharts/ivy-2.2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/gatling/highcharts/gatling-charts-highcharts/2.2.5/gatling-charts-highcharts-2.2.5.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.2.5" rev-constraint-default="2.2.5" rev-constraint-dynamic="2.2.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="gatling-charts-highcharts" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="114123" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling.highcharts/gatling-charts-highcharts/srcs/gatling-charts-highcharts-2.2.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/gatling/highcharts/gatling-charts-highcharts/2.2.5/gatling-charts-highcharts-2.2.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.gatling" name="gatling-recorder">
+			<revision name="2.2.5" status="release" pubdate="20170420150435" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://gatling.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4043" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling/gatling-recorder/ivy-2.2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/gatling/gatling-recorder/2.2.5/gatling-recorder-2.2.5.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.2.5" rev-constraint-default="2.2.5" rev-constraint-dynamic="2.2.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="gatling-recorder" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="144153" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling/gatling-recorder/srcs/gatling-recorder-2.2.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/gatling/gatling-recorder/2.2.5/gatling-recorder-2.2.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.gatling" name="gatling-test-framework">
+			<revision name="2.2.5" status="release" pubdate="20170420150429" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://gatling.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="44">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2946" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling/gatling-test-framework/ivy-2.2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/gatling/gatling-test-framework/2.2.5/gatling-test-framework-2.2.5.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.2.5" rev-constraint-default="2.2.5" rev-constraint-dynamic="2.2.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="gatling-test-framework" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5548" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling/gatling-test-framework/srcs/gatling-test-framework-2.2.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/gatling/gatling-test-framework/2.2.5/gatling-test-framework-2.2.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="test-interface">
+			<revision name="1.0" status="release" pubdate="20130629041435" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-sbt.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="55">
+				<license name="BSD" url="https://github.com/sbt/test-interface/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2589" time="0" location="/Users/kkn6124/.ivy2/cache/org.scala-sbt/test-interface/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-sbt/test-interface/1.0/test-interface-1.0.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="test-interface" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18792" time="0" location="/Users/kkn6124/.ivy2/cache/org.scala-sbt/test-interface/srcs/test-interface-1.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.7" status="release" pubdate="20150623014746" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2825" time="0" location="/Users/kkn6124/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="561516" time="0" location="/Users/kkn6124/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bcpkix-jdk15on">
+			<revision name="1.55" status="release" pubdate="20160821112953" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="no" details="" size="2927" time="0" location="/Users/kkn6124/.ivy2/cache/org.bouncycastle/bcpkix-jdk15on/ivy-1.55.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.55/bcpkix-jdk15on-1.55.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="1.55" rev-constraint-default="1.55" rev-constraint-dynamic="1.55" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="bcpkix-jdk15on" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="447335" time="0" location="/Users/kkn6124/.ivy2/cache/org.bouncycastle/bcpkix-jdk15on/srcs/bcpkix-jdk15on-1.55-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.55/bcpkix-jdk15on-1.55-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bcprov-jdk15on">
+			<revision name="1.55" status="release" pubdate="20160821112524" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="no" details="" size="2676" time="0" location="/Users/kkn6124/.ivy2/cache/org.bouncycastle/bcprov-jdk15on/ivy-1.55.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="1.55" rev-constraint-default="1.55" rev-constraint-dynamic="1.55" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="bcprov-jdk15on" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3155923" time="0" location="/Users/kkn6124/.ivy2/cache/org.bouncycastle/bcprov-jdk15on/srcs/bcprov-jdk15on-1.55-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-swing_2.11">
+			<revision name="1.0.2" status="release" pubdate="20150430185824" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2663" time="0" location="/Users/kkn6124/.ivy2/cache/org.scala-lang.modules/scala-swing_2.11/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-swing_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="79553" time="0" location="/Users/kkn6124/.ivy2/cache/org.scala-lang.modules/scala-swing_2.11/srcs/scala-swing_2.11-1.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-swing_2.11/1.0.2/scala-swing_2.11-1.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.gatling" name="gatling-app">
+			<revision name="2.2.5" status="release" pubdate="20170420150440" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://gatling.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3621" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling/gatling-app/ivy-2.2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/gatling/gatling-app/2.2.5/gatling-app-2.2.5.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.2.5" rev-constraint-default="2.2.5" rev-constraint-dynamic="2.2.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="gatling-app" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18407" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling/gatling-app/srcs/gatling-app-2.2.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/gatling/gatling-app/2.2.5/gatling-app-2.2.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.gatling" name="gatling-charts">
+			<revision name="2.2.5" status="release" pubdate="20170420150453" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://gatling.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3417" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling/gatling-charts/ivy-2.2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/gatling/gatling-charts/2.2.5/gatling-charts-2.2.5.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.2.5" rev-constraint-default="2.2.5" rev-constraint-dynamic="2.2.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="gatling-charts" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="193521" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling/gatling-charts/srcs/gatling-charts-2.2.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/gatling/gatling-charts/2.2.5/gatling-charts-2.2.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.tdunning" name="t-digest">
+			<revision name="3.1" status="release" pubdate="20150406063516" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/tdunning/t-digest" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3737" time="0" location="/Users/kkn6124/.ivy2/cache/com.tdunning/t-digest/ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/tdunning/t-digest/3.1/t-digest-3.1.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="t-digest" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="39638" time="0" location="/Users/kkn6124/.ivy2/cache/com.tdunning/t-digest/srcs/t-digest-3.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/tdunning/t-digest/3.1/t-digest-3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.gatling" name="gatling-redis">
+			<revision name="2.2.5" status="release" pubdate="20170420150329" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://gatling.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3423" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling/gatling-redis/ivy-2.2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/gatling/gatling-redis/2.2.5/gatling-redis-2.2.5.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.2.5" rev-constraint-default="2.2.5" rev-constraint-dynamic="2.2.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="gatling-redis" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7473" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling/gatling-redis/srcs/gatling-redis-2.2.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/gatling/gatling-redis/2.2.5/gatling-redis-2.2.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.gatling" name="gatling-http">
+			<revision name="2.2.5" status="release" pubdate="20170420150443" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://gatling.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3870" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling/gatling-http/ivy-2.2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/gatling/gatling-http/2.2.5/gatling-http-2.2.5.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.2.5" rev-constraint-default="2.2.5" rev-constraint-dynamic="2.2.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="gatling-http" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="178393" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling/gatling-http/srcs/gatling-http-2.2.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/gatling/gatling-http/2.2.5/gatling-http-2.2.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
+			<revision name="1.0.5" status="release" pubdate="20150725004224" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3137" time="0" location="/Users/kkn6124/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-xml_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="109244" time="0" location="/Users/kkn6124/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/srcs/scala-xml_2.11-1.0.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.asynchttpclient" name="async-http-client">
+			<revision name="2.0.29" status="release" pubdate="20170215145214" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="9438" time="0" location="/Users/kkn6124/.ivy2/cache/org.asynchttpclient/async-http-client/ivy-2.0.29.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/asynchttpclient/async-http-client/2.0.29/async-http-client-2.0.29.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.0.29" rev-constraint-default="2.0.29" rev-constraint-dynamic="2.0.29" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="async-http-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="311728" time="0" location="/Users/kkn6124/.ivy2/cache/org.asynchttpclient/async-http-client/srcs/async-http-client-2.0.29-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/asynchttpclient/async-http-client/2.0.29/async-http-client-2.0.29-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.javassist" name="javassist">
+			<revision name="3.21.0-GA" status="release" pubdate="20161003221507" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.javassist.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="MPL 1.1" url="http://www.mozilla.org/MPL/MPL-1.1.html"/>
+				<license name="LGPL 2.1" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3199" time="0" location="/Users/kkn6124/.ivy2/cache/org.javassist/javassist/ivy-3.21.0-GA.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="3.21.0-GA" rev-constraint-default="3.21.0-GA" rev-constraint-dynamic="3.21.0-GA" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="javassist" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="524605" time="0" location="/Users/kkn6124/.ivy2/cache/org.javassist/javassist/srcs/javassist-3.21.0-GA-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.asynchttpclient" name="netty-resolver-dns">
+			<revision name="2.0.29" status="release" pubdate="20170215145137" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="9720" time="0" location="/Users/kkn6124/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/ivy-2.0.29.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/asynchttpclient/netty-resolver-dns/2.0.29/netty-resolver-dns-2.0.29.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.0.29" rev-constraint-default="2.0.29" rev-constraint-dynamic="2.0.29" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-resolver-dns" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="55637" time="0" location="/Users/kkn6124/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/srcs/netty-resolver-dns-2.0.29-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/asynchttpclient/netty-resolver-dns/2.0.29/netty-resolver-dns-2.0.29-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.asynchttpclient" name="netty-resolver">
+			<revision name="2.0.29" status="release" pubdate="20170215145118" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="9402" time="0" location="/Users/kkn6124/.ivy2/cache/org.asynchttpclient/netty-resolver/ivy-2.0.29.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/asynchttpclient/netty-resolver/2.0.29/netty-resolver-2.0.29.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.0.29" rev-constraint-default="2.0.29" rev-constraint-dynamic="2.0.29" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-resolver" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="22393" time="0" location="/Users/kkn6124/.ivy2/cache/org.asynchttpclient/netty-resolver/srcs/netty-resolver-2.0.29-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/asynchttpclient/netty-resolver/2.0.29/netty-resolver-2.0.29-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-transport-native-epoll">
+			<revision name="4.0.44.Final" status="release" pubdate="20170130224126" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="15716" time="0" location="/Users/kkn6124/.ivy2/cache/io.netty/netty-transport-native-epoll/ivy-4.0.44.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.0.44.Final/netty-transport-native-epoll-4.0.44.Final.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="4.0.44.Final" rev-constraint-default="4.0.44.Final" rev-constraint-dynamic="4.0.44.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-transport-native-epoll" type="jar" ext="jar" extra-classifier="linux-x86_64" status="no" details="" size="151072" time="0" location="/Users/kkn6124/.ivy2/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.0.44.Final-linux-x86_64.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-http">
+			<revision name="4.0.44.Final" status="release" pubdate="20170130221932" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="60">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="15006" time="0" location="/Users/kkn6124/.ivy2/cache/io.netty/netty-codec-http/ivy-4.0.44.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.0.44.Final/netty-codec-http-4.0.44.Final.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="4.0.44.Final" rev-constraint-default="4.0.44.Final" rev-constraint-dynamic="4.0.44.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-codec-http" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="359136" time="0" location="/Users/kkn6124/.ivy2/cache/io.netty/netty-codec-http/srcs/netty-codec-http-4.0.44.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.0.44.Final/netty-codec-http-4.0.44.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.gatling" name="gatling-metrics">
+			<revision name="2.2.5" status="release" pubdate="20170420150342" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://gatling.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3430" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling/gatling-metrics/ivy-2.2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/gatling/gatling-metrics/2.2.5/gatling-metrics-2.2.5.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.2.5" rev-constraint-default="2.2.5" rev-constraint-dynamic="2.2.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="gatling-metrics" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="17814" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling/gatling-metrics/srcs/gatling-metrics-2.2.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/gatling/gatling-metrics/2.2.5/gatling-metrics-2.2.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hdrhistogram" name="HdrHistogram">
+			<revision name="2.1.9" status="release" pubdate="20160518200331" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hdrhistogram.github.io/HdrHistogram/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
+				<license name="Public Domain, per Creative Commons CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="4190" time="0" location="/Users/kkn6124/.ivy2/cache/org.hdrhistogram/HdrHistogram/ivy-2.1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.1.9" rev-constraint-default="2.1.9" rev-constraint-dynamic="2.1.9" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="HdrHistogram" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="111315" time="0" location="/Users/kkn6124/.ivy2/cache/org.hdrhistogram/HdrHistogram/srcs/HdrHistogram-2.1.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.asynchttpclient" name="netty-codec-dns">
+			<revision name="2.0.29" status="release" pubdate="20170215145020" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="9403" time="0" location="/Users/kkn6124/.ivy2/cache/org.asynchttpclient/netty-codec-dns/ivy-2.0.29.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/asynchttpclient/netty-codec-dns/2.0.29/netty-codec-dns-2.0.29.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.0.29" rev-constraint-default="2.0.29" rev-constraint-dynamic="2.0.29" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-codec-dns" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="52179" time="0" location="/Users/kkn6124/.ivy2/cache/org.asynchttpclient/netty-codec-dns/srcs/netty-codec-dns-2.0.29-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/asynchttpclient/netty-codec-dns/2.0.29/netty-codec-dns-2.0.29-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-handler">
+			<revision name="4.0.44.Final" status="release" pubdate="20170130221911" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="15738" time="0" location="/Users/kkn6124/.ivy2/cache/io.netty/netty-handler/ivy-4.0.44.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-handler/4.0.44.Final/netty-handler-4.0.44.Final.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="4.0.44.Final" rev-constraint-default="4.0.44.Final" rev-constraint-dynamic="4.0.44.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-handler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="224073" time="0" location="/Users/kkn6124/.ivy2/cache/io.netty/netty-handler/srcs/netty-handler-4.0.44.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-handler/4.0.44.Final/netty-handler-4.0.44.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.gatling" name="gatling-jms">
+			<revision name="2.2.5" status="release" pubdate="20170420150348" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://gatling.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3567" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling/gatling-jms/ivy-2.2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/gatling/gatling-jms/2.2.5/gatling-jms-2.2.5.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.2.5" rev-constraint-default="2.2.5" rev-constraint-dynamic="2.2.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="gatling-jms" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30645" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling/gatling-jms/srcs/gatling-jms-2.2.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/gatling/gatling-jms/2.2.5/gatling-jms-2.2.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.geronimo.specs" name="geronimo-jms_1.1_spec">
+			<revision name="1.1.1" status="release" pubdate="20080207065655" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<metadata-artifact status="no" details="" size="7221" time="0" location="/Users/kkn6124/.ivy2/cache/org.apache.geronimo.specs/geronimo-jms_1.1_spec/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="geronimo-jms_1.1_spec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="57995" time="0" location="/Users/kkn6124/.ivy2/cache/org.apache.geronimo.specs/geronimo-jms_1.1_spec/srcs/geronimo-jms_1.1_spec-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec">
+			<revision name="4.0.44.Final" status="release" pubdate="20170130221747" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="15425" time="0" location="/Users/kkn6124/.ivy2/cache/io.netty/netty-codec/ivy-4.0.44.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec/4.0.44.Final/netty-codec-4.0.44.Final.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="4.0.44.Final" rev-constraint-default="4.0.44.Final" rev-constraint-dynamic="4.0.44.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="137461" time="0" location="/Users/kkn6124/.ivy2/cache/io.netty/netty-codec/srcs/netty-codec-4.0.44.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec/4.0.44.Final/netty-codec-4.0.44.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-transport">
+			<revision name="4.0.44.Final" status="release" pubdate="20170130221731" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="14743" time="0" location="/Users/kkn6124/.ivy2/cache/io.netty/netty-transport/ivy-4.0.44.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-transport/4.0.44.Final/netty-transport-4.0.44.Final.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="4.0.44.Final" rev-constraint-default="4.0.44.Final" rev-constraint-dynamic="4.0.44.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-transport" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="255600" time="0" location="/Users/kkn6124/.ivy2/cache/io.netty/netty-transport/srcs/netty-transport-4.0.44.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-transport/4.0.44.Final/netty-transport-4.0.44.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.debasishg" name="redisclient_2.11">
+			<revision name="3.2" status="release" pubdate="20160818211940" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/debasishg/scala-redis" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3463" time="0" location="/Users/kkn6124/.ivy2/cache/net.debasishg/redisclient_2.11/ivy-3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/debasishg/redisclient_2.11/3.2/redisclient_2.11-3.2.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="3.2" rev-constraint-default="3.2" rev-constraint-dynamic="3.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="redisclient_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30532" time="0" location="/Users/kkn6124/.ivy2/cache/net.debasishg/redisclient_2.11/srcs/redisclient_2.11-3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/debasishg/redisclient_2.11/3.2/redisclient_2.11-3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-pool" name="commons-pool">
+			<revision name="1.6" status="release" pubdate="20120109210304" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/pool/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<metadata-artifact status="no" details="" size="7362" time="0" location="/Users/kkn6124/.ivy2/cache/commons-pool/commons-pool/ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-pool/commons-pool/1.6/commons-pool-1.6.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-pool" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="108314" time="0" location="/Users/kkn6124/.ivy2/cache/commons-pool/commons-pool/srcs/commons-pool-1.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-pool/commons-pool/1.6/commons-pool-1.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.gatling" name="gatling-jdbc">
+			<revision name="2.2.5" status="release" pubdate="20170420150337" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://gatling.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3388" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling/gatling-jdbc/ivy-2.2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/gatling/gatling-jdbc/2.2.5/gatling-jdbc-2.2.5.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.2.5" rev-constraint-default="2.2.5" rev-constraint-dynamic="2.2.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="gatling-jdbc" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6525" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling/gatling-jdbc/srcs/gatling-jdbc-2.2.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/gatling/gatling-jdbc/2.2.5/gatling-jdbc-2.2.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.gatling" name="gatling-core">
+			<revision name="2.2.5" status="release" pubdate="20170420150457" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://gatling.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="5267" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling/gatling-core/ivy-2.2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/gatling/gatling-core/2.2.5/gatling-core-2.2.5.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.2.5" rev-constraint-default="2.2.5" rev-constraint-dynamic="2.2.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="gatling-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="181869" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling/gatling-core/srcs/gatling-core-2.2.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/gatling/gatling-core/2.2.5/gatling-core-2.2.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jodd" name="jodd-lagarto">
+			<revision name="3.8.0" status="release" pubdate="20161025163845" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jodd.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="61">
+				<license name="The BSD 2-Clause License" url="http://jodd.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3242" time="0" location="/Users/kkn6124/.ivy2/cache/org.jodd/jodd-lagarto/ivy-3.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jodd/jodd-lagarto/3.8.0/jodd-lagarto-3.8.0.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="3.8.0" rev-constraint-default="3.8.0" rev-constraint-dynamic="3.8.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jodd-lagarto" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="138436" time="0" location="/Users/kkn6124/.ivy2/cache/org.jodd/jodd-lagarto/srcs/jodd-lagarto-3.8.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jodd/jodd-lagarto/3.8.0/jodd-lagarto-3.8.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jodd" name="jodd-core">
+			<revision name="3.8.0" status="release" pubdate="20161025163641" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jodd.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="The BSD 2-Clause License" url="http://jodd.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2472" time="0" location="/Users/kkn6124/.ivy2/cache/org.jodd/jodd-core/ivy-3.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jodd/jodd-core/3.8.0/jodd-core-3.8.0.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="3.8.0" rev-constraint-default="3.8.0" rev-constraint-dynamic="3.8.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jodd-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="368461" time="0" location="/Users/kkn6124/.ivy2/cache/org.jodd/jodd-core/srcs/jodd-core-3.8.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jodd/jodd-core/3.8.0/jodd-core-3.8.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf.saxon" name="Saxon-HE">
+			<revision name="9.7.0-10" status="release" pubdate="20161021220959" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.saxonica.com/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
+				<license name="Mozilla Public License Version 2.0" url="http://www.mozilla.org/MPL/2.0/"/>
+				<metadata-artifact status="no" details="" size="3612" time="0" location="/Users/kkn6124/.ivy2/cache/net.sf.saxon/Saxon-HE/ivy-9.7.0-10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/9.7.0-10/Saxon-HE-9.7.0-10.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="9.7.0-10" rev-constraint-default="9.7.0-10" rev-constraint-dynamic="9.7.0-10" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="Saxon-HE" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4692688" time="0" location="/Users/kkn6124/.ivy2/cache/net.sf.saxon/Saxon-HE/srcs/Saxon-HE-9.7.0-10-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/9.7.0-10/Saxon-HE-9.7.0-10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.advantageous.boon" name="boon-json">
+			<revision name="0.6.6" status="release" pubdate="20160715061657" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/advantageous/boon" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3298" time="0" location="/Users/kkn6124/.ivy2/cache/io.advantageous.boon/boon-json/ivy-0.6.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/advantageous/boon/boon-json/0.6.6/boon-json-0.6.6.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="0.6.6" rev-constraint-default="0.6.6" rev-constraint-dynamic="0.6.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="boon-json" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="97864" time="0" location="/Users/kkn6124/.ivy2/cache/io.advantageous.boon/boon-json/srcs/boon-json-0.6.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/advantageous/boon/boon-json/0.6.6/boon-json-0.6.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.advantageous.boon" name="boon-reflekt">
+			<revision name="0.6.6" status="release" pubdate="20160715061709" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/advantageous/boon" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3300" time="0" location="/Users/kkn6124/.ivy2/cache/io.advantageous.boon/boon-reflekt/ivy-0.6.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/advantageous/boon/boon-reflekt/0.6.6/boon-reflekt-0.6.6.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="0.6.6" rev-constraint-default="0.6.6" rev-constraint-dynamic="0.6.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="boon-reflekt" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="255869" time="0" location="/Users/kkn6124/.ivy2/cache/io.advantageous.boon/boon-reflekt/srcs/boon-reflekt-0.6.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/advantageous/boon/boon-reflekt/0.6.6/boon-reflekt-0.6.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.25" status="release" pubdate="20170316220632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5199" time="0" location="/Users/kkn6124/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="55539" time="0" location="/Users/kkn6124/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.25-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.gatling" name="jsonpath_2.11">
+			<revision name="0.6.8" status="release" pubdate="20160901011516" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://gatling.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3187" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling/jsonpath_2.11/ivy-0.6.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/gatling/jsonpath_2.11/0.6.8/jsonpath_2.11-0.6.8.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="0.6.8" rev-constraint-default="0.6.8" rev-constraint-dynamic="0.6.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jsonpath_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7473" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling/jsonpath_2.11/srcs/jsonpath_2.11-0.6.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/gatling/jsonpath_2.11/0.6.8/jsonpath_2.11-0.6.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.scopt" name="scopt_2.11">
+			<revision name="3.5.0" status="release" pubdate="20160612053600" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scopt/scopt" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2797" time="0" location="/Users/kkn6124/.ivy2/cache/com.github.scopt/scopt_2.11/ivy-3.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/scopt/scopt_2.11/3.5.0/scopt_2.11-3.5.0.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="3.5.0" rev-constraint-default="3.5.0" rev-constraint-dynamic="3.5.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scopt_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7753" time="0" location="/Users/kkn6124/.ivy2/cache/com.github.scopt/scopt_2.11/srcs/scopt_2.11-3.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/scopt/scopt_2.11/3.5.0/scopt_2.11-3.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
+			<revision name="1.0.4" status="release" pubdate="20150430193700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2929" time="0" location="/Users/kkn6124/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42276" time="0" location="/Users/kkn6124/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/srcs/scala-parser-combinators_2.11-1.0.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.ben-manes.caffeine" name="caffeine">
+			<revision name="2.3.5" status="release" pubdate="20161107100149" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ben-manes/caffeine" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5474" time="0" location="/Users/kkn6124/.ivy2/cache/com.github.ben-manes.caffeine/caffeine/ivy-2.3.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.3.5/caffeine-2.3.5.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.3.5" rev-constraint-default="2.3.5" rev-constraint-dynamic="2.3.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="caffeine" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="147951" time="0" location="/Users/kkn6124/.ivy2/cache/com.github.ben-manes.caffeine/caffeine/srcs/caffeine-2.3.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.3.5/caffeine-2.3.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-csv">
+			<revision name="2.8.4" status="release" pubdate="20161014100012" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-dataformat-csv" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8081" time="0" location="/Users/kkn6124/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-csv/ivy-2.8.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-csv/2.8.4/jackson-dataformat-csv-2.8.4.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.8.4" rev-constraint-default="2.8.4" rev-constraint-dynamic="2.8.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-dataformat-csv" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="72197" time="0" location="/Users/kkn6124/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-csv/srcs/jackson-dataformat-csv-2.8.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-csv/2.8.4/jackson-dataformat-csv-2.8.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.8.4" status="release" pubdate="20161014092229" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8156" time="0" location="/Users/kkn6124/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.8.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.8.4" rev-constraint-default="2.8.4" rev-constraint-dynamic="2.8.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="918621" time="0" location="/Users/kkn6124/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.8.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.8.0" status="release" pubdate="20160704105053" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6969" time="0" location="/Users/kkn6124/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.8.0" rev-constraint-default="2.8.0" rev-constraint-dynamic="2.8.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="57510" time="0" location="/Users/kkn6124/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.8.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.8.4" status="release" pubdate="20161014091821" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7423" time="0" location="/Users/kkn6124/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.8.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.8.4" rev-constraint-default="2.8.4" rev-constraint-dynamic="2.8.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="293681" time="0" location="/Users/kkn6124/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.8.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-slf4j_2.11">
+			<revision name="2.4.12" status="release" pubdate="20161028211224" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.4.12" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3347" time="0" location="/Users/kkn6124/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/ivy-2.4.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.12/akka-slf4j_2.11-2.4.12.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.4.12" rev-constraint-default="2.4.12" rev-constraint-dynamic="2.4.12" callerrev="1.0" extra-info.apiURL="http://doc.akka.io/api/akka/2.4.12"/>
+				<artifacts>
+					<artifact name="akka-slf4j_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2364" time="0" location="/Users/kkn6124/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/srcs/akka-slf4j_2.11-2.4.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.12/akka-slf4j_2.11-2.4.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
+			<revision name="2.4.12" status="release" pubdate="20161028210504" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.4.12" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3102" time="0" location="/Users/kkn6124/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.4.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.12/akka-actor_2.11-2.4.12.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.4.12" rev-constraint-default="2.4.12" rev-constraint-dynamic="2.4.12" callerrev="1.0" extra-info.apiURL="http://doc.akka.io/api/akka/2.4.12"/>
+				<artifacts>
+					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="399056" time="0" location="/Users/kkn6124/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.4.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.12/akka-actor_2.11-2.4.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.gatling" name="gatling-commons">
+			<revision name="2.2.5" status="release" pubdate="20170420150350" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://gatling.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4657" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling/gatling-commons/ivy-2.2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/gatling/gatling-commons/2.2.5/gatling-commons-2.2.5.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.2.5" rev-constraint-default="2.2.5" rev-constraint-dynamic="2.2.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="gatling-commons" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="52666" time="0" location="/Users/kkn6124/.ivy2/cache/io.gatling/gatling-commons/srcs/gatling-commons-2.2.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/gatling/gatling-commons/2.2.5/gatling-commons-2.2.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.scala-logging" name="scala-logging_2.11">
+			<revision name="3.5.0" status="release" pubdate="20160917184759" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/scala-logging" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3354" time="0" location="/Users/kkn6124/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.11/ivy-3.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.11/3.5.0/scala-logging_2.11-3.5.0.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="3.5.0" rev-constraint-default="3.5.0" rev-constraint-dynamic="3.5.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-logging_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8672" time="0" location="/Users/kkn6124/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.11/srcs/scala-logging_2.11-3.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.11/3.5.0/scala-logging_2.11-3.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.1.7" status="release" pubdate="20160330015502" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="10288" time="0" location="/Users/kkn6124/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="logback-classic" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="226208" time="0" location="/Users/kkn6124/.ivy2/cache/ch.qos.logback/logback-classic/srcs/logback-classic-1.1.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.1.7" status="release" pubdate="20160330015356" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="8012" time="0" location="/Users/kkn6124/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="logback-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="396578" time="0" location="/Users/kkn6124/.ivy2/cache/ch.qos.logback/logback-core/srcs/logback-core-1.1.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.asynchttpclient" name="async-http-client-netty-utils">
+			<revision name="2.0.29" status="release" pubdate="20170215145151" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="8307" time="0" location="/Users/kkn6124/.ivy2/cache/org.asynchttpclient/async-http-client-netty-utils/ivy-2.0.29.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/asynchttpclient/async-http-client-netty-utils/2.0.29/async-http-client-netty-utils-2.0.29.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.0.29" rev-constraint-default="2.0.29" rev-constraint-dynamic="2.0.29" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="async-http-client-netty-utils" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5408" time="0" location="/Users/kkn6124/.ivy2/cache/org.asynchttpclient/async-http-client-netty-utils/srcs/async-http-client-netty-utils-2.0.29-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/asynchttpclient/async-http-client-netty-utils/2.0.29/async-http-client-netty-utils-2.0.29-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-buffer">
+			<revision name="4.0.44.Final" status="release" pubdate="20170130221607" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="14737" time="0" location="/Users/kkn6124/.ivy2/cache/io.netty/netty-buffer/ivy-4.0.44.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-buffer/4.0.44.Final/netty-buffer-4.0.44.Final.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="4.0.44.Final" rev-constraint-default="4.0.44.Final" rev-constraint-dynamic="4.0.44.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-buffer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="144855" time="0" location="/Users/kkn6124/.ivy2/cache/io.netty/netty-buffer/srcs/netty-buffer-4.0.44.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-buffer/4.0.44.Final/netty-buffer-4.0.44.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-common">
+			<revision name="4.0.44.Final" status="release" pubdate="20170130221442" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="16654" time="0" location="/Users/kkn6124/.ivy2/cache/io.netty/netty-common/ivy-4.0.44.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-common/4.0.44.Final/netty-common-4.0.44.Final.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="4.0.44.Final" rev-constraint-default="4.0.44.Final" rev-constraint-dynamic="4.0.44.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="331446" time="0" location="/Users/kkn6124/.ivy2/cache/io.netty/netty-common/srcs/netty-common-4.0.44.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-common/4.0.44.Final/netty-common-4.0.44.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.11">
+			<revision name="0.8.0-RC7" status="release" pubdate="20160913034020" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3040" time="0" location="/Users/kkn6124/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/ivy-0.8.0-RC7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.8.0-RC7/scala-java8-compat_2.11-0.8.0-RC7.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="0.8.0-RC7" rev-constraint-default="0.8.0-RC7" rev-constraint-dynamic="0.8.0-RC7" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63860" time="0" location="/Users/kkn6124/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/srcs/scala-java8-compat_2.11-0.8.0-RC7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.8.0-RC7/scala-java8-compat_2.11-0.8.0-RC7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.softwaremill.quicklens" name="quicklens_2.11">
+			<revision name="1.4.8" status="release" pubdate="20161019132447" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.softwaremill.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="Apache2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2804" time="0" location="/Users/kkn6124/.ivy2/cache/com.softwaremill.quicklens/quicklens_2.11/ivy-1.4.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/softwaremill/quicklens/quicklens_2.11/1.4.8/quicklens_2.11-1.4.8.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="1.4.8" rev-constraint-default="1.4.8" rev-constraint-dynamic="1.4.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="quicklens_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5435" time="0" location="/Users/kkn6124/.ivy2/cache/com.softwaremill.quicklens/quicklens_2.11/srcs/quicklens_2.11-1.4.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/softwaremill/quicklens/quicklens_2.11/1.4.8/quicklens_2.11-1.4.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="me.chrons" name="boopickle_2.11">
+			<revision name="1.2.4" status="release" pubdate="20160628161218" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ochrons/boopickle" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3062" time="0" location="/Users/kkn6124/.ivy2/cache/me.chrons/boopickle_2.11/ivy-1.2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/me/chrons/boopickle_2.11/1.2.4/boopickle_2.11-1.2.4.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="boopickle_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="23748" time="0" location="/Users/kkn6124/.ivy2/cache/me.chrons/boopickle_2.11/srcs/boopickle_2.11-1.2.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/me/chrons/boopickle_2.11/1.2.4/boopickle_2.11-1.2.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.dongxiguo" name="fastring_2.11">
+			<revision name="0.2.4" status="release" pubdate="20140418085920" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/Atry/fastring" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="54">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2935" time="0" location="/Users/kkn6124/.ivy2/cache/com.dongxiguo/fastring_2.11/ivy-0.2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/dongxiguo/fastring_2.11/0.2.4/fastring_2.11-0.2.4.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="0.2.4" rev-constraint-default="0.2.4" rev-constraint-dynamic="0.2.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="fastring_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3184" time="0" location="/Users/kkn6124/.ivy2/cache/com.dongxiguo/fastring_2.11/srcs/fastring_2.11-0.2.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/dongxiguo/fastring_2.11/0.2.4/fastring_2.11-0.2.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.1" status="release" pubdate="20160924182320" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="57">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2875" time="0" location="/Users/kkn6124/.ivy2/cache/com.typesafe/config/ivy-1.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.1/config-1.3.1.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="170512" time="0" location="/Users/kkn6124/.ivy2/cache/com.typesafe/config/srcs/config-1.3.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.1/config-1.3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.netty" name="netty-reactive-streams">
+			<revision name="1.0.8" status="release" pubdate="20160912133042" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4889" time="0" location="/Users/kkn6124/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/ivy-1.0.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams/1.0.8/netty-reactive-streams-1.0.8.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="1.0.8" rev-constraint-default="1.0.8" rev-constraint-dynamic="1.0.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-reactive-streams" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6826" time="0" location="/Users/kkn6124/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/srcs/netty-reactive-streams-1.0.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams/1.0.8/netty-reactive-streams-1.0.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.0" status="release" pubdate="20150429214454" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="58">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2523" time="0" location="/Users/kkn6124/.ivy2/cache/org.reactivestreams/reactive-streams/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3130" time="0" location="/Users/kkn6124/.ivy2/cache/org.reactivestreams/reactive-streams/srcs/reactive-streams-1.0.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jodd" name="jodd-log">
+			<revision name="3.8.0" status="release" pubdate="20161025163901" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jodd.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="The BSD 2-Clause License" url="http://jodd.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2786" time="0" location="/Users/kkn6124/.ivy2/cache/org.jodd/jodd-log/ivy-3.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jodd/jodd-log/3.8.0/jodd-log-3.8.0.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="3.8.0" rev-constraint-default="3.8.0" rev-constraint-dynamic="3.8.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jodd-log" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18359" time="0" location="/Users/kkn6124/.ivy2/cache/org.jodd/jodd-log/srcs/jodd-log-3.8.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jodd/jodd-log/3.8.0/jodd-log-3.8.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.7" status="release" pubdate="20150623014702" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2471" time="0" location="/Users/kkn6124/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom"/>
+				<caller organisation="default" name="selfprac$sources_2.11" conf="test, compile, runtime, gatling" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="908307" time="0" location="/Users/kkn6124/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.7-sources.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

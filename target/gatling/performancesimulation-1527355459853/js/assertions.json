@@ -1,0 +1,27 @@
+{
+  "simulation": "PerformanceSimulation",
+  "simulationId": "performancesimulation",
+  "start": 1527355459853,
+  "description": "",
+  "scenarios": ["User performs"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "count of failed requests",
+  "condition": "is",
+  "expectedValues": [0.0],
+  "result": true,
+  "message": "Global: count of failed requests is 0.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Global",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [3000.0],
+  "result": true,
+  "message": "Global: max of response time is less than 3000.0",
+  "actualValue": [746.0]
+}
+  ]
+}
