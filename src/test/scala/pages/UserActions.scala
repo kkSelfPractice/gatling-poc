@@ -13,9 +13,9 @@ object UserActions extends PerformanceConfig{
     .check(status.is(200))
   )
 
-  def navigate_to_rservation_page(): ChainBuilder = exec(http(s"Navigation to Flight Reservation page")
+  def navigate_to_rservation_page(fromCity: String, toCity:String): ChainBuilder = exec(http(s"Navigation to Flight Reservation page From ${fromCity} To ${toCity}")
     .post(s"/reserve.php")
-      .formParamMap(Map("fromPort"->"Paris","toPort"->"Buenos Aires"))
+    .formParamMap(Map("fromPort"->fromCity,"toPort"->toCity))
     .headers(javascriptHeaders)
     .check(status.is(200))
   )
