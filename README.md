@@ -1,4 +1,5 @@
-# gatlingPractice
+# gatling POC to demonstarte it's capabiility and to verify how it handles various needs of perfromance project
+
 This is a demo project for Gatling
 | To RUN this project: 
  1. Open Terminal / Command Prompt
